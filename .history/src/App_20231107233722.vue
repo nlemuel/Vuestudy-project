@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <img alt="logo" class="logo" src="@/assets/tsukumo.jpg" width="425" height="465" />
+      <img alt="logo" class="logo" src="@/assets/tsukumo.jpg" width="440" height="420" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>

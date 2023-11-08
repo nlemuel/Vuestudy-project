@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <img alt="logo" class="logo" src="@/assets/tsukumo.jpg" width="425" height="465" />
+      <img alt="logo" class="logo" src="@/assets/tsukumo.jpg" width="30%" height="30%" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -32,12 +32,12 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
   width: 100%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 nav a.router-link-exact-active {
@@ -71,8 +71,8 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
+    place-items: flex-start;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   nav {

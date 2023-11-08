@@ -32,12 +32,12 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
   width: 100%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 nav a.router-link-exact-active {
@@ -58,6 +58,12 @@ nav a:first-of-type {
   border: 0;
 }
 
+img{
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+}
+
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -71,8 +77,8 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
+    place-items: flex-start;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   nav {

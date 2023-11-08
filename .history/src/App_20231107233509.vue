@@ -32,8 +32,6 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
   width: 100%;
   font-size: 12px;
   text-align: center;
@@ -71,8 +69,8 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
+    place-items: flex-start;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   nav {
