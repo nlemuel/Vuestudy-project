@@ -136,7 +136,7 @@ input {
   border-radius: 4px;
   font-size: 1rem;
 
-  background-color: #ffff;
+  background-color: gray;
 }
 .menu{
   display: flex;

@@ -18,6 +18,7 @@
     </div>
 
     <p v-if="erro">{{ erro }}</p>
+    <!-- <div class="input-container"> -->
       <input type="text" v-model="nome" />
     <p class="p" v-if="nome.length > 5 ">Nome grande</p>
     <p class="p" v-else>Nome pequeno</p>
@@ -34,6 +35,8 @@
         </tr>
       </table>
      </div> 
+      
+    <!-- </div> -->
     
   </div>
 </template>
@@ -136,10 +139,11 @@ input {
   border-radius: 4px;
   font-size: 1rem;
 
-  background-color: #ffff;
+  background-color: gray;
 }
 .menu{
   display: flex;
   justify-content: center;
 }
+
 </style>
